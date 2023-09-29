@@ -64,6 +64,9 @@ font-weight: 800;
 .list{
     list-style: none;
 }
+.mouse{
+    cursor: pointer;
+}
 footer {
     padding: 20px;
     border: 1px solid #2E2F42;
