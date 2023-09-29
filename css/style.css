@@ -44,6 +44,26 @@ font-weight: 800;
     font-weight: 400;
     line-height: 24px;
 }
+.index-button{
+    color: #FFFFFF;
+    font-size: 16mp;
+    font-weight: 500;
+}
+.index-heading {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.index-category {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.list{
+    list-style: none;
+}
 footer {
     padding: 20px;
     border: 1px solid #2E2F42;
