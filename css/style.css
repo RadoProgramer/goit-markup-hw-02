@@ -1,0 +1,54 @@
+:root
+.body{
+    background-color: var(--white);
+    color: var(--brand-color)
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+.logo{
+    color: #4D5AE5;
+    font-size: 18px;
+    font-family: Raleway;
+    font-weight: 800;
+}
+.logo-header{
+color: #2E2F42;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+}
+.nav-list{
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+}
+.contact-list{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+}
+.portfolio-button{
+    color: #405AE5;
+    font-size: 16px;
+    font-weight: 500;
+}
+.portfolio-heading{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.portfolio-category{
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+footer {
+    padding: 20px;
+    border: 1px solid #2E2F42;
+}
+footer p {
+border: 1px solid #2E2F42;
+padding: 10px;
+}
