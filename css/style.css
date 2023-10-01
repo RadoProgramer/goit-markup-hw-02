@@ -14,7 +14,7 @@
 }
 .body{
     font-family: "Roboto", sans-serif;
-    background-color: var(--modal-background-color);
+    background-color: var(--white-background-color);
     color: var(--text-color)
     }
     
@@ -60,6 +60,15 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.link{
+text-decoration: none;
+}
+.link:hover{
+color: var(--pressed-state-color);
+}
+.link:focus{
+    color: var(--pressed-state-color);
+}
 .contact{
     font-style: normal;
 }
@@ -101,6 +110,13 @@
     letter-spacing: 0.04em;
     color: var(--white-background-color);
     cursor: pointer;
+}
+.button:hover {
+    color: var(--pressed-state-color);
+}
+
+.button:focus {
+    color: var(--pressed-state-color);
 }
 .portfolio-button{
     color: #405AE5;
@@ -151,6 +167,9 @@
 }
 .list{
     list-style: none;
+}
+.list-index-bacground{
+    background-color: var(--white-background-color);
 }
 .foto-list{
     background-color: var(--white-background-color);
