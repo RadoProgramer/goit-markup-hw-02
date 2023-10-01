@@ -135,6 +135,14 @@ color: var(--pressed-state-color);
         color: var(--primary-brand-color);
         cursor: pointer;
 }
+.portfolio-button:hover{
+    color: var(--white-background-color);
+    background-color: var(--pressed-state-color);
+}
+.portfolio-button:focus{
+    color: var(--white-background-color);
+    background-color: var(--pressed-state-color);
+}
 .portfolio-heading{
     color: var(--dark-color);
     font-size: 20px;
