@@ -60,6 +60,7 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+
 .link{
 text-decoration: none;
 }
@@ -78,6 +79,12 @@ color: var(--pressed-state-color);
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.02em;
+}
+.contact-list:hover{
+    color: var(--pressed-state-color);
+}
+.contact-list:focus{
+    color: var(--pressed-state-color);
 }
 .index-section-one{
     background-color: var(--hero-background-color);
@@ -112,11 +119,11 @@ color: var(--pressed-state-color);
     cursor: pointer;
 }
 .button:hover {
-    color: var(--pressed-state-color);
+    background-color: var(--pressed-state-color);
 }
 
 .button:focus {
-    color: var(--pressed-state-color);
+    background-color: var(--pressed-state-color);
 }
 .portfolio-button{
     color: #405AE5;
