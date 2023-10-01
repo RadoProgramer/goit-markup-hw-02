@@ -52,10 +52,6 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.link {
-    color: var(--dark-color);
-    text-decoration: none;
-}
 .nav-list{
     color: var(--dark-color);
     font-size: 16px;
@@ -167,11 +163,7 @@
 .mouse{
     cursor: pointer;
 }
-.link:hover,
-.link:focus,
-.link:active{
-    color: tomato;
-}
+
 .last-section{
     background-color: var(--dark-color);
 }
